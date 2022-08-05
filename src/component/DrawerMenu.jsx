@@ -22,6 +22,7 @@ const menu = [
   { id: "1", testo: "💰 Ordini Aperti", name: "ordiniAPER" },
   { id: "2", testo: "🏬 Magazzino", name: "ordiniAPER" },
   { id: "3", testo: "👉 Gestisci ordini", name: "ordiniAPER" },
+  { id: "4", testo: "👨‍💼 Configura Sale", name: "ordiniAPER" },
 ];
 export const DrawerMenu = ({ isOpen, onClose, btnRef }) => {
   return (
