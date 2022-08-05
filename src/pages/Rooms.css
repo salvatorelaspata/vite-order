@@ -1,0 +1,16 @@
+.circle {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: #2D3748;
+  border: 1px solid gray;
+  border-radius: 50%;
+}
+
+.rectangle {
+  box-shadow: 1px 1px darkgray;
+  height: 50px;
+  width: 100px;
+  background-color: #555;
+  background-color: #2D3748;
+}
