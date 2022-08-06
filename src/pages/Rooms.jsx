@@ -12,7 +12,13 @@ import "./Rooms.css";
 export const Rooms = () => {
   const onClickRect = function (oEvn) {
     const { style, tagName } = oEvn.target;
-    if (tagName !== "P") style.backgroundColor = "red";
+    if (tagName !== "P") {
+      debugger;
+      style.backgroundColor = "red";
+    } else {
+      oEvn.target.parentElement.style.backgroundColor = "red";
+    }
+
     onOpen();
   };
   const { isOpen, onOpen, onClose } = useDisclosure();
